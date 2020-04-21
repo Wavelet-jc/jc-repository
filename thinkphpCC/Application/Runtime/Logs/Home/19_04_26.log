@@ -1,0 +1,370 @@
+[ 2019-04-26T00:01:50+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/game.gtimg.cn/images/lol/v3/index/20190424ig/video.webm
+ERR: 非法操作:game.gtimg.cn
+
+[ 2019-04-26T00:01:50+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/game.gtimg.cn/images/lol/v3/index/20190424ig/video.mp4
+ERR: 非法操作:game.gtimg.cn
+
+[ 2019-04-26T11:02:56+08:00 ] ::1 /thinkphpCC/index.php/Home/User/movie.mp4
+ERR: 非法操作:movie.mp4
+
+[ 2019-04-26T11:02:56+08:00 ] ::1 /thinkphpCC/index.php/Home/User/movie.ogg
+ERR: 非法操作:movie.ogg
+
+[ 2019-04-26T15:10:20+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat/id/10016/p/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `chat_group_msg` WHERE ( gm_GroupId =  ) LIMIT 1  
+
+[ 2019-04-26T15:12:42+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat/id/10027/p/1.html
+ERR: Think\Controller:chatGroupMsgHistory(10016)方法不存在！
+
+[ 2019-04-26T15:13:07+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat/id/10027/p/1.html
+ERR: Think\Controller:chatGroupMsgHistory(10016)方法不存在！
+
+[ 2019-04-26T15:13:51+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat/id/10016/p/1.html
+ERR: Think\Controller:chatGroupMsgHistory(10016)方法不存在！
+
+[ 2019-04-26T15:28:10+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0098s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','','10016','2019-04-26 15:28:09') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2019-04-26T15:29:20+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0135s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','请问','10016','2019-04-26 15:29:19') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2019-04-26T15:30:29+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0126s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','1
+','10016','2019-04-26 15:30:28') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2019-04-26T15:34:54+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0140s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','对对对','10016','2019-04-26 15:34:53') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2019-04-26T15:35:25+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0211s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','的的','10016','2019-04-26 15:35:24') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2019-04-26T15:35:25+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2019-04-26T15:36:22+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0228s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','额','10016','2019-04-26 15:36:21') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2019-04-26T15:36:22+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2019-04-26T15:37:44+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0090s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','二','10016','2019-04-26 15:37:43') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2019-04-26T15:37:44+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2019-04-26T15:38:46+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0097s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','1','10016','2019-04-26 15:38:45') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2019-04-26T15:38:46+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2019-04-26T15:39:09+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0164s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','的','10016','2019-04-26 15:39:08') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2019-04-26T15:39:09+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2019-04-26T15:40:39+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSend?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0169s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','的','10016','2019-04-26 15:40:38') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2019-04-26T15:40:39+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2019-04-26T15:41:00+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2019-04-26T15:48:18+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0092s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','好','0','2019-04-26 15:48:17') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2019-04-26T15:48:30+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0092s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','就','0','2019-04-26 15:48:28') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2019-04-26T15:49:21+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0175s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','就','0','2019-04-26 15:49:20') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2019-04-26T15:49:36+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0095s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','','0','2019-04-26 15:49:35') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2019-04-26T15:49:41+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0210s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','就','0','2019-04-26 15:49:40') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2019-04-26T15:50:32+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0280s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','个','0','2019-04-26 15:50:31') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2019-04-26T16:03:56+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0279s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','看','0','2019-04-26 16:03:55') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2019-04-26T16:05:10+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0091s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','','0','2019-04-26 16:05:09') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2019-04-26T16:05:19+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0114s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','看','0','2019-04-26 16:05:18') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2019-04-26T16:06:14+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0127s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','看','0','2019-04-26 16:06:13') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2019-04-26T16:06:20+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0234s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','就','0','2019-04-26 16:06:19') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2019-04-26T16:06:59+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0290s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','要','0','2019-04-26 16:06:58') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003815s ]
+
+[ 2019-04-26T16:07:06+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/do_chatGroupMsgSendAjax?id=10016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+NOTIC: [8] Undefined index: id J:\phpStudy\WWW\thinkphpCC\Application\Home\Controller\ChatGroupMsgController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `chat_group_msg` [ RunTime:0.0114s ]
+SQL: INSERT INTO `chat_group_msg` (`gm_FromId`,`gm_Content`,`gm_GroupId`,`gm_FromTime`) VALUES ('1','要','0','2019-04-26 16:07:05') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2019-04-26T17:13:00+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id={messages.msg_touserid}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id={messages.msg_touserid} and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:13:18+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:16:03+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:16:08+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:17:31+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:18:16+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:19:28+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:24:04+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChatHistory?id=3
+ERR: 非法操作:friendChatHistory
+
+[ 2019-04-26T17:24:27+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=3
+ERR: Think\Controller:recentMessages方法不存在！
+
+[ 2019-04-26T17:24:47+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChatHistory?id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_Id = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `friend_remark` FROM `friends` WHERE ( friend_Id= and user_Id = 1 ) LIMIT 1  
+
+[ 2019-04-26T17:29:23+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=3
+ERR: 模板不存在:./Application/Home/View/Main/recentMessages.html
+
+[ 2019-04-26T17:34:24+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc,msg_Time LIMIT 6' at line 1
+ [ SQL语句 ] : SELECT * FROM `messages` WHERE ( (msg_FromUserId = 1 and msg_ToUserId = 3) or (msg_FromUserId = 3 and msg_ToUserId = 1) ) ORDER BY desc,msg_Time LIMIT 6  
+

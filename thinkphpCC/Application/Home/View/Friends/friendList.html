@@ -1,0 +1,14 @@
+<foreach name="friendsList" item="oneFriend">
+
+	<div class="Friend_bd" style="text-align: center;background: rgba(0,0,0,0.5)">
+		<a href="__URL__/friendChat?id={$oneFriend.friend_id}" class="list-group-item list-group-item-action" style="text-align: center;background: rgba(255,255,255,0.85)">
+			<p class="Friend_Other">{$oneFriend.user_nickname}
+				<notempty name="oneFriend.friend_remark">
+					({$oneFriend.friend_remark})
+				</notempty>
+			</p>
+			<p class="Friend_Other">状态:{$oneFriend.user_statename}</p>
+
+		</a>
+	</div>
+</foreach>

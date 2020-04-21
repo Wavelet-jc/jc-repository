@@ -1,0 +1,88 @@
+[ 2019-04-24T09:32:08+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-04-24T09:32:25+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-04-24T09:32:27+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-04-24T09:32:30+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-04-24T09:32:33+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-04-24T09:41:57+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/friend
+ERR: 模板不存在:./Application/Home/View/Friends/deleteFriend.html
+
+[ 2019-04-24T09:43:15+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:26+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:29+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:35+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:38+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:38+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:38+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T09:43:40+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/add_friend
+ERR: 非法操作:add_friend
+
+[ 2019-04-24T10:22:48+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroup/deleteChatGroup?id=
+ERR: 无法加载控制器:ChatGroup
+
+[ 2019-04-24T10:32:21+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_deleteChatGroup?
+ERR: 1054:Unknown column 'cd_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cg_adminid=1 and cd_id = " "  ) LIMIT 1  
+
+[ 2019-04-24T10:32:56+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_deleteChatGroup?
+ERR: 1054:Unknown column 'cd_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cg_adminid=1 and cd_id = " "  ) LIMIT 1  
+
+[ 2019-04-24T10:41:01+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_deleteChatGroup?id=10025
+ERR: 1054:Unknown column 'cd_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cg_adminid=1 and cd_id = "10025 "  ) LIMIT 1  
+
+[ 2019-04-24T10:41:59+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_deleteChatGroup?id=10025
+ERR: 1054:Unknown column 'cd_id' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `chat_groups` WHERE ( cg_adminid=1 and cd_id = "10025 "  )
+
+[ 2019-04-24T11:02:41+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/chatGroups
+ERR: 模板不存在:./Application/Home/View/ChatGroups/deleteChatGroup.html
+
+[ 2019-04-24T11:03:38+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/chatGroups
+ERR: 模板不存在:./Application/Home/View/ChatGroups/deleteChatGroup.html
+
+[ 2019-04-24T12:22:16+08:00 ] ::1 /thinkphpCC/index.php/Home/View/Main/1.html
+ERR: 无法加载控制器:View
+
+[ 2019-04-24T15:54:31+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_quitChatGroup?id=10027
+ERR: 非法操作:do_quitChatGroup
+
+[ 2019-04-24T17:33:07+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat?id=10016
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( user_Id =  ) LIMIT 1  
+
+[ 2019-04-24T17:36:46+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroups/do_quitChatGroup?id=10027
+ERR: 非法操作:do_quitChatGroup
+
+[ 2019-04-24T21:42:11+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/chatGroupMsg.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `chat_group_msg` WHERE ( gm_GroupId =  ) LIMIT 1  
+
+[ 2019-04-24T21:43:58+08:00 ] ::1 /thinkphpCC/index.php/Home/ChatGroupMsg/chatGroupMsg.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `chat_group_msg` WHERE ( gm_GroupId =  ) LIMIT 1  
+

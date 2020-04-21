@@ -1,0 +1,2 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<input type="submit" class="button" class="btn btn-primary" id="delFriend" formaction="/thinkphpCC/index.php/Home/ChatGroups/../Friends/do_deleteFriend?id=<?php echo ($theFriend["user_id"]); ?>" value="解散群组"/>

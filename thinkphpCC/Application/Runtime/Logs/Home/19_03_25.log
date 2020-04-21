@@ -1,0 +1,47 @@
+[ 2019-03-25T00:05:45+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array )' at line 1
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid in Array ) 
+
+[ 2019-03-25T00:26:56+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10016,10025 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid in 10016,10025 ) 
+
+[ 2019-03-25T00:27:15+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'cgm_groupid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid in (10016,10025) ) 
+
+[ 2019-03-25T00:29:18+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'jcgm_groupid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( jcgm_groupid in (10016,10025) ) 
+
+[ 2019-03-25T00:30:41+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid in (10016 or 10025 or ) ) 
+
+[ 2019-03-25T00:34:16+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'cgm_groupid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid=10016 or cgm_groupid=10025 ) 
+
+[ 2019-03-25T00:36:36+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `chat_groups` WHERE ( cg_Id in (10016 or 10027 or ) ) 
+
+[ 2019-03-25T00:45:09+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/do_addFriend
+ERR: 1062:Duplicate entry '4-6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `friends` (`friend_Id`,`user_Id`,`friend_Remark`) VALUES ('4','6','')
+
+[ 2019-03-25T00:45:59+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/do_addFriend
+ERR: 1062:Duplicate entry '4-6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `friends` (`friend_Id`,`user_Id`,`friend_Remark`) VALUES ('4','6','')
+
+[ 2019-03-25T00:48:22+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/Main/main
+ERR: 非法操作:Main
+
+[ 2019-03-25T00:55:24+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1052:Column 'user_Id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT Friends.friend_Remark AS friend_Remark,Friends.friend_GroupId AS friend_GroupId,Friends.friend_Id AS friend_Id,User.user_Account AS user_Account,User.user_Nickname AS user_Nickname,User.user_Mail AS user_Mail,User.user_Phone AS user_Phone,User_state.us_Name AS us_Name FROM friends Friends  JOIN user User ON Friends.friend_Id=User.user_Id  JOIN user_state User_state ON User_state.us_Id=Friends.friend_Id WHERE ( user_Id = 1 ) ORDER BY User_state.us_Name ASC 
+
+[ 2019-03-25T00:59:16+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON User.user_Id = Friends.friend_Id  JOIN user User  JOIN user_state User_state ' at line 1
+ [ SQL语句 ] : SELECT Friends.friend_Remark AS friend_Remark,Friends.friend_GroupId AS friend_GroupId,Friends.friend_Id AS friend_Id,User.user_Id AS user_Id,User.user_Account AS user_Account,User.user_Nickname AS user_Nickname,User.user_Mail AS user_Mail,User.user_Phone AS user_Phone,User_state.us_Name AS us_Name FROM friends Friends ON User.user_Id = Friends.friend_Id  JOIN user User  JOIN user_state User_state ON User_state.us_Id=Friends.friend_Id ORDER BY User_state.us_Name ASC 
+

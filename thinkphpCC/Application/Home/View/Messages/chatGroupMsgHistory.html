@@ -1,0 +1,58 @@
+
+
+<div class=" text-white">
+	<a href="__URL__/groupChat?id={$groupId}" class="btn btn-primary" >聊天</a>
+	<a href="__URL__/groupChatHistory?id={$groupId}" class="btn btn-primary" >记录</a>
+</div>
+
+<div id="Message_record">
+	<ul class="list-group" id="Messsages">
+		<foreach name="chatGroupMsg" item="chatGroupMsg">
+			<li href="" class="list-group-item list-group-item-action" style="font-size: 14px">
+				<div style="color:cornflowerblue;">{$chatGroupMsg.from_nickname} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {$chatGroupMsg.gm_fromtime}</div>
+				<div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$chatGroupMsg.gm_content}</div>
+			</li>
+		</foreach>
+	</ul>
+</div>
+<div>{$page}</div>
+
+	<script type="text/javascript">//前端Ajax持续调用服务端，称为Ajax轮询技术	
+		var url_str = "{:U('chatGroupMsg/get_message')}?id={$groupId}";
+		var getting = {		
+			url: url_str,
+			dataType: 'json',		
+			success: function(res) {
+				var text1 = '<ul class="list-group">';
+		for (var i=0; i<6; i++){
+		text1 += '<li class="list-group-item" style="font-size: 14px">';
+		text1 += '<div style="color:cornflowerblue;">';
+		
+		text1 += res[i].from_nickname +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 时间:'+res[i].gm_fromtime	+'</div>';
+		text1 += '<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+res[i].gm_content+'</div></li> ';
+
+		}
+		text1 += '</ul>';
+		$("#Message_record").html(text1);
+				console.log( res);
+				$.ajax(getting); //关键在这里，回调函数内再次请求Ajax
+		
+			},
+			//当请求时间过长（默认为60秒），就再次调用ajax长轮询
+			error: function(res) {
+				$.ajax($getting);
+			}		
+		};		
+		$.ajax(getting);
+	</script>
+
+<!--<h2>群组聊天记录</h2>
+<div id="Messsages">
+<foreach name="chatGroupMsg" item="chatGroupMsg">
+	<a href="" class="list-group-item list-group-item-action">
+		<div style="color:cornflowerblue;">{$chatGroupMsg.from_nickname} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {$chatGroupMsg.gm_fromtime}</div>
+		<div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$chatGroupMsg.gm_content}</div>
+	</a>
+</foreach>
+</div>
+<div>{$page}</div>-->

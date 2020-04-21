@@ -1,0 +1,103 @@
+[ 2019-03-24T09:01:00+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/Friend
+ERR: éæ³•æ“ä½œ:Friend
+
+[ 2019-03-24T09:03:04+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/Friend
+ERR: éæ³•æ“ä½œ:Friend
+
+[ 2019-03-24T09:03:09+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/Friend
+ERR: éæ³•æ“ä½œ:Friend
+
+[ 2019-03-24T09:35:42+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat?id=10027
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/chatGroupMembersList.html
+
+[ 2019-03-24T09:36:14+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat?id=10027
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/chatGroupMembersList.html
+
+[ 2019-03-24T09:38:19+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/groupChat?id=10016
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/chatGroupMembersList.html
+
+[ 2019-03-24T11:00:31+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:01:09+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:01:16+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:01:23+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:05:38+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:07:09+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:07:18+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:07:26+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:11:24+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:11:31+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2019-03-24T11:11:59+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [1130] Host '202.100.206.240' is not allowed to connect to this MySQL server
+
+[ 2019-03-24T11:12:55+08:00 ] ::1 /thinkphpCC/index.php/Home/User/do_login
+ERR: SQLSTATE[HY000] [1130] Host '202.100.206.240' is not allowed to connect to this MySQL server
+
+[ 2019-03-24T11:29:13+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: XMLæ ‡ç­¾è¯­æ³•é”™è¯¯ : name={$oneFriend.friend_remark}
+
+[ 2019-03-24T22:59:19+08:00 ] ::1 /thinkphpCC/index.php/Home/MaingroupChat?id=5
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:MaingroupChat
+
+[ 2019-03-24T22:59:32+08:00 ] ::1 /thinkphpCC/index.php/Home/MaingroupChat?id=5
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:MaingroupChat
+
+[ 2019-03-24T23:02:00+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=5
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/messagesHistory.html
+
+[ 2019-03-24T23:02:44+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=5
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/messagesHistory.html
+
+[ 2019-03-24T23:02:48+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=5
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/messagesHistory.html
+
+[ 2019-03-24T23:03:21+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/friendChat?id=5
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Application/Home/View/Main/messagesHistory.html
+
+[ 2019-03-24T23:33:17+08:00 ] ::1 /thinkphpCC/index.php/Home/Friends/friendList
+ERR: 1052:Column 'user_Id' in where clause is ambiguous
+ [ SQLè¯­å¥ ] : SELECT Friends.friend_Remark AS friend_Remark,Friends.friend_GroupId AS friend_GroupId,Friends.friend_Id AS friend_Id,User.user_Account AS user_Account,User.user_Nickname AS user_Nickname,User.user_Mail AS user_Mail,User.user_Phone AS user_Phone,User_state.us_Name AS us_Name FROM friends Friends  JOIN user User ON Friends.friend_Id=User.user_Id  JOIN user_state User_state ON User_state.us_Id=Friends.friend_Id WHERE ( user_Id = 6 ) ORDER BY User_state.us_Name ASC 
+
+[ 2019-03-24T23:47:21+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'User.user_Id' in 'where clause'
+ [ SQLè¯­å¥ ] : SELECT * FROM `chat_groups` WHERE ( User.user_Id = 6 ) 
+
+[ 2019-03-24T23:47:32+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'user_Id' in 'where clause'
+ [ SQLè¯­å¥ ] : SELECT * FROM `chat_groups` WHERE ( user_Id = 6 ) 
+
+[ 2019-03-24T23:50:41+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'user_Id' in 'where clause'
+ [ SQLè¯­å¥ ] : SELECT `cgm_groupId` FROM `chat_group_members` WHERE ( user_Id = 6 ) LIMIT 1  
+
+[ 2019-03-24T23:50:54+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'user_Id' in 'where clause'
+ [ SQLè¯­å¥ ] : SELECT `cgm_groupId` FROM `chat_group_members` WHERE ( user_Id = 6 ) LIMIT 1  
+
+[ 2019-03-24T23:57:29+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1054:Unknown column 'cgm_groupid' in 'where clause'
+ [ SQLè¯­å¥ ] : SELECT * FROM `chat_groups` WHERE (  `cgm_groupid` = '10016' ) AND (  `cgm_groupid` = '10025' ) 
+
+[ 2019-03-24T23:58:25+08:00 ] ::1 /thinkphpCC/index.php/Home/Main/main.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array )' at line 1
+ [ SQLè¯­å¥ ] : SELECT * FROM `chat_groups` WHERE ( cgm_groupid in Array ) 
+
